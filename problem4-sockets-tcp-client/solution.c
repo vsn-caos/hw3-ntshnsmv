@@ -7,6 +7,7 @@
 #include <netinet/in.h>
 #include <stdint.h>
 #include <signal.h>
+#include <errno.h>
 
 // Программе передаются два аргумента:
 //   argv[1] — IPv4-адрес сервера в десятичной записи (например, "127.0.0.1")
